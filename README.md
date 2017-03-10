@@ -3,5 +3,9 @@
 ### Animation 动画组件
 动画组件采用了与cocoa框架类似的调用方式，iOS开发者可以轻松上手
 ```C#
-UIView.Animate()
+// 默认为0.25秒
+UIAnimation.Animate(() =>
+{
+    RotateAngleView.RotateAngle(45);
+});
 ```
