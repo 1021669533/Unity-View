@@ -13,7 +13,7 @@ UIAnimation.Animate(() =>
 });
 ```
 ### ListView 可变高度列表组件
-ListView与Android的实现类似，采用视图-适配器的使用方案
+ListView与Android的实现类似，采用视图-适配器的使用方案</br>
 TableView(不可变高度列表)、GridView实现基本类似
 ```C#
 public class MyAdapter : IListAdapter
